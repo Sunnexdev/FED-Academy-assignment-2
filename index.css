@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #0a0522;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+button {
+  background-color: #06b6d4;
+  color: #0f172a;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.container {
+  padding-inline: 5rem;
+}
+
+/* Navigation bar styles */
+.nav-list-container {
+  display: flex;
+  justify-content: center;
+  background-color: #0a0522;
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+}
+
+.nav-list-container ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.nav-list-container a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Home section styles */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a0522;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.home-container button {
+  margin-top: 1.5rem;
+}
+
+.home-container img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+/* i am using this because i want my footer to below so i want my main element almost all the spaces to push my footer downward */
+main {
+  flex: 1;
+}
+/* CARDS */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card-one {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  color: #f8fafc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #0f172a;
+  color: #94a3b8;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 6px;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .container {
+    padding-inline: 1rem;
+  }
+
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-container img {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
