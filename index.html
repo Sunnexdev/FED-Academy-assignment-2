@@ -20,8 +20,8 @@
     <main>
       <section id="home about" class="home-container container">
         <div class="home-text">
-          <h2>Hi, Sunday Oluwatimilehin,</h2>
-          <h3>Front-End Developer</h3>
+          <h1>Hi, Sunday Oluwatimilehin,</h1>
+          <h2>Front-End Developer</h2>
           <p>
             Welcome to my portfolio! I am a passionate front-end developer with
             a strong foundation in HTML, CSS, and JavaScript.
@@ -32,30 +32,76 @@
         <img src="profile.jpeg" alt="My profile image" />
       </section>
 
-      <section id="skill" class="card-container container">
-        <div class="card-one">
-          <h3>HTML5</h3>
-          <p>
-            Proficient in creating semantic and accessible HTML5 structures.
-          </p>
-          <button>Connect Now</button>
+      <section id="skill" class="container">
+        <h1 class="title">Skills</h1>
+        <div class="card-container">
+          <div class="card-one">
+            <h3>HTML5</h3>
+            <p>
+              Proficient in creating semantic and accessible HTML5 structures.
+            </p>
+            <button>Connect Now</button>
+          </div>
+          <div class="card-one">
+            <h3>CSS3</h3>
+            <p>
+              Skilled in designing responsive layouts and implementing modern
+              CSS techniques.
+            </p>
+            <button>Connect Now</button>
+          </div>
+          <div class="card-one">
+            <h3>JAVASCRIPT</h3>
+            <p>
+              Experienced in building interactive web applications using modern
+              JavaScript frameworks.
+            </p>
+            <button>Connect Now</button>
+          </div>
         </div>
-        <div class="card-one">
-          <h3>CSS3</h3>
-          <p>
-            Skilled in designing responsive layouts and implementing modern CSS
-            techniques.
-          </p>
-          <button>Connect Now</button>
-        </div>
-        <div class="card-one">
-          <h3>JAVASCRIPT</h3>
-          <p>
-            Experienced in building interactive web applications using modern
-            JavaScript frameworks.
-          </p>
-          <button>Connect Now</button>
-        </div>
+      </section>
+      <section id="table" class="container">
+        <h1 class="title">Frequently Asked Questions</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Question</th>
+              <th>Answer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>What is your favorite programming language?</td>
+              <td>JavaScript</td>
+            </tr>
+            <tr>
+              <td>What is your preferred development environment?</td>
+              <td>Visual Studio Code</td>
+            </tr>
+            <tr>
+              <td>What is your approach to problem-solving in coding?</td>
+              <td>
+                I break down problems into smaller parts and tackle them step by
+                step.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="contact" class="container">
+        <h1 class="title">Contact Me</h1>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
       </section>
     </main>
     <footer>
