@@ -206,6 +206,10 @@ footer {
     text-align: center;
   }
 
+  .home-text p {
+    width: 100%;
+  }
+
   .home-container img {
     margin-top: 2rem;
     margin-bottom: 1rem;
