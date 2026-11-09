@@ -191,6 +191,9 @@ table td {
 }
 
 /* CONTACT */
+.contact-form {
+  background: linear-gradient(-135deg, var(--bg) 23%, var(--bg-secondary) 19%);
+}
 form {
   display: flex;
   flex-direction: column;
