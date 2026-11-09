@@ -1,10 +1,11 @@
 :root {
   --bg: #0a0522;
-  --bg-secondary: #;
+  --bg-secondary: #0f172a;
   --text-bg: var(--bg);
   --text: #fff;
   --text-secondary: #94a3b8;
   --btn: #06b6d4;
+  --btn-hover: #0e7490;
   --tablehd: #1e293b;
 }
 
@@ -38,7 +39,7 @@ button {
 }
 
 button:hover {
-  background-color: #0e7490;
+  background-color: var(--btn-hover);
   transform: scale(1.05);
 }
 
@@ -91,15 +92,23 @@ button:hover {
   width: 150px;
   height: 150px;
 }
+.home-container img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
 .home-text p {
   font-size: 1.2rem;
   line-height: 1.5;
+  width: 70%;
 }
 /* i am using this because i want my footer to below so i want my main element almost all the spaces to push my footer downward */
 main {
   flex: 1;
 }
 /* CARDS */
+.cards-List {
+  background: linear-gradient(135deg, var(--bg) 22%, var(--bg-secondary) 20%);
+}
 
 .title {
   font-size: 2rem;
