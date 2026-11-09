@@ -117,7 +117,7 @@ button:hover {
 }
 
 .home-text p {
-  font-size: clamp(0.8rem, 3vw + 0.8rem, 1.5rem);
+  font-size: clamp(0.8rem, 3vw + 0.8rem, 1.2rem);
   line-height: 1.5;
   width: 80%;
 }
@@ -127,11 +127,12 @@ main {
 }
 /* CARDS */
 .cards-List {
-  background: linear-gradient(135deg, var(--bg) 22%, var(--bg-secondary) 20%);
+  background: linear-gradient(135deg, var(--bg) 20.5%, var(--bg-secondary) 20%);
 }
 
-.cards-List h1,
-.question-table h1 {
+.cards-List h2,
+.question-table h3,
+.contact-form h2 {
   margin-bottom: 1rem;
   text-align: center;
   width: fit-content;
@@ -194,7 +195,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  /* max-width: 500px; */
+  max-width: 500px;
   margin: 0 auto;
 }
 form input,
@@ -223,6 +224,10 @@ footer {
 
   h2 {
     font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
   }
 
   .container {
