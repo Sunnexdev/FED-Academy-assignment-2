@@ -127,11 +127,11 @@ main {
 }
 /* CARDS */
 .cards-List {
-  background: linear-gradient(135deg, var(--bg) 20.5%, var(--bg-secondary) 20%);
+  background: linear-gradient(135deg, var(--bg) 19%, var(--bg-secondary) 19%);
 }
 
 .cards-List h2,
-.question-table h3,
+.question-table h2,
 .contact-form h2 {
   margin-bottom: 1rem;
   text-align: center;
